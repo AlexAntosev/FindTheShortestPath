@@ -11,7 +11,7 @@ void ShowArray(int *arr, int size, int rows)
 	std::cout << std::endl;
 }
 
-void ShowDoubleArray(char **arr, int rows, int cols)
+void ShowMatrix(char **arr, int rows, int cols)
 {
 	for (int i = 0; i < rows; i++)
 	{

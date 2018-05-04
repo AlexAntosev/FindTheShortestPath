@@ -20,10 +20,6 @@ void SaveData(char *filename, int *arr, int size)
 	{
 		printf("Error opening file");
 	}
-	//for (int i = 0; i < size; i++)
-	//{
-	//	fprintf(file, "%d\n", arr[i]);
-	//}
 	fclose(file);
 }
 
